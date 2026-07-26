@@ -1,8 +1,13 @@
 aid: firsthand
 name: firsthand
-description: 'firsthand is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'firsthand is a healthcare company delivering peer-based support to individuals
+  living with serious mental illness and substance use disorders, helping them access
+  care, benefits, and community resources. Its guides and specialists have lived experience
+  of mental illness, and its HITRUST r2-certified helpinghand platform coordinates care
+  across states including Florida, Ohio, Michigan, Virginia, and Washington. firsthand is
+  a portfolio company of GV (Google Ventures). This profile is maintained by the API
+  Evangelist network; firsthand publishes no public developer API, SDK, or documentation
+  surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/firsthand/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://static1.squarespace.com/static/6144f1478be5ff5cf2d7c926/t/69238d71009eea2aa021fe62/1765220077994/firsthand+social+preview.png?format=1500w
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Mental Health
+- Behavioral Health
+- Peer Support
+- Care Coordination
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.firsthandcares.com/
+- type: Blog
+  url: https://www.firsthandcares.com/blog
+- type: PrivacyPolicy
+  url: https://www.firsthandcares.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
